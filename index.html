@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<style>
+    html {
+        background-color: black;
+    }
+
+    * {
+        color: red;
+    }
+
+    .prueba {
+        color: green;
+    }
+
+    .prueba_2 {
+        color: blue;
+    }
+
+    #test {
+        color: white;
+    }
+
+    span.test2 {
+        color: pink;
+    }
+
+    span.test {
+        color: blueviolet;
+    }
+
+    #texto2 {
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .sin_estilo {
+        list-style: inherit;
+    }
+
+    li {
+        color: yellow !important;
+    }
+
+    ul>li {
+        color: pink;
+    }
+
+    button.formulario {
+        background-color: #bebe;
+    }
+
+    .formulario {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .ejemplo_ancho {
+        width: 10rem;
+        margin-left: 5rem;
+        margin-right: 80%;
+    }
+
+    select:hover {
+        padding: 3rem;
+        background-color: transparent;
+    }
+
+    ul>li:hover {
+        background-color: green;
+    }
+
+    li:first-letter {
+        font-weight: bold;
+        font-variant: uppercase;
+    }
+
+    li:first-child {
+        background-color: #caca;
+    }
+
+    button:active {
+        background-color: green;
+    }
+
+    img {
+        width: 15rem;
+    }
+
+    .imagetext {
+        width: 2rem;
+    }
+
+    #texto01{
+
+    }
+
+    span.se_muestra {
+        font-size: 0px;
+    }
+
+    span.se_muestra:hover {
+        font-size: 1rem;
+    }
+
+    #texto1{
+        color:white;
+    }
+
+    .test{
+        color:green;
+    }
+
+    span{
+        color: red;
+    }
+
+    span.test{
+        color:pink;
+    }
+
+    ul.clase_ul > li:hover {
+        background-color: white;
+    }
+
+</style>
+
+<body>
+
+    <span>TESTTTOSATAO</span>
+
+    <div class="infowindow-title font-weight-bold">
+        <span id="texto1" class="test test2">Estilo Unico</span>
+        <span id="texto2" class="test">Plaza nº5</span>
+        <ul class="sin_estilo">
+            <li>
+                Plaza nº5
+            </li>
+            <li>
+                Plaza Constitución, 1
+            </li>
+            <li>
+                Nombre del autobus (Alsa34)
+            </li>
+            <li>
+                Beacons (842e14a0810b)
+            </li>
+        </ul>
+    </div>
+
+    <span class="se_muestra">
+        <img id="image" class="imagetext" src="https://picsum.photos/500/500">
+        Bla Bla Bla
+    </span>
+
+    <p style="font-weight:bold ;color:#caca">Hola</p>
+    <p>Que Tal fafafa <span>Texto</span>
+        <span>TTexto 2</span></p>
+
+    <input type="radio" id="html" name="opcion01" value="HTML">
+      <label for="html">WWW</label>
+
+
+      <input type="radio" id="css" name="opcion01" value="CSS">
+      <label for="css">CSS</label>
+
+     <input type="radio" id="javascript" name="opcion01" value="JavaScript">
+    <label for="js">JavaScript</label>
+
+
+    <ul class="clase_ul">
+        <li style="font-size: 1rem;">Item 01</li>
+        <li class="prueba">Item 02</li>
+        <li class="prueba_2">Item 03</li>
+        <li id="test" class="prueba_2">Item 04</li>
+        <li style="font-size: 2%;">Item 05</li>
+
+    </ul>
+
+    <input type="radio" id="html" name="opcion01" value="HTML">
+      <label for="html">WWW</label>
+
+
+      <input type="radio" id="css" name="opcion01" value="CSS">
+      <label for="css">CSS</label>
+
+     <input type="radio" id="javascript" name="opcion01" value="JavaScript">
+    <label for="js">JavaScript</label>
+
+    <ol>
+        <li>
+            <ol>
+                <li>Item 01</li>
+                <li>Item 03</li>
+                <li>Item 04</li>
+                <li>Item 02</li>
+            </ol>
+        </li>
+        <li>Item 03</li>
+        <li>Item 04</li>
+        <li>Item 02</li>
+    </ol>
+    <form action="www.google.es" method="POST">
+
+        <select class="ejemplo_ancho" name="cars" id="cars">
+            <option value="volvo">asfasf affs</option>
+            <option value="saab"> asf asf</option>
+            <option value="opel">as fas ff</option>
+            <option value="audi">ffffff</option>
+        </select>
+
+        <label for="email">HTML</label>
+        <input id="email" name="email" class="formulario" type="text" placeholder="Texto" value="Texto1"><br>
+        <input class="formulario" type="text" value="Texto">
+        <input class="formulario" type="checkbox">
+        <input class="formulario" type="radio">
+        <input class="formulario" type="number" value="000">
+        <input class="formulario" type="datetime">
+        <input class="formulario" type="email">
+        <button class="formulario" type="submit">Soy Un Boton</button>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">WWW</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+
+
+    </form>
+
+
+
+    <a href="http://google.es">ANCHOR</a>
+    <img id="image" class="image" src="https://picsum.photos/500/500">
+
+
+
+
+
+</body>
+
+</html>
