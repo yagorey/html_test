@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" method="get">
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" required autofocus>
+            </li>
+            <li>
+                 <label for="correoElectronico">Correo Electronico:</label>
+                <input type="email" name="correoElectronico" required>
+            </li>
+            <li>
+                 <label for="direccionWeb">Url:</label>
+                <input type="url" name="direccionWeb"
+                placeholder="Escribe la URL de tu página web personal">
+            </li>
+            <li>
+                 <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha">
+            </li>
+            <li>
+                 <label for="tiempo">Tiempo:</label>
+                <input type="time" name="tiempo">
+            </li>
+            <li>
+                 <label for="fechaYHora">Fecha y Hora:</label>
+                <input type="datetime-local" name="fechaYHora">
+            </li>
+            <li>
+                 <label for="mes">Mes:</label>
+                <input type="month" name="mes">
+            </li>
+            <li>
+                 <label for="semana">Semana:</label>
+                <input type="week" name="semana">
+            </li>
+            <li>
+                <label for="numero">Numero (-10,+10):</label>
+                <input type="number" name="numero" min="-10" max="10" >
+            </li>
+            <li>
+                 <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" pattern="[6,7,5,8,9]{1}[0-9]{8}">
+            </li>
+            <li>
+                 <label for="aBuscar">Busqueda:</label>
+                <input type="search" name="aBuscar">
+            </li>
+            <li>
+                 <label for="unColor">Color:</label>
+                <input type="color" name="unColor">
+            </li>
+            <li>
+                <input type="submit" value="registro">
+            </li>
+        </ul>
+    </form>
+
+</body>
+</html>

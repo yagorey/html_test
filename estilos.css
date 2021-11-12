@@ -1,0 +1,41 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color:#bbb;
+}
+
+body{
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: #777;
+}
+
+h1:hover, h2:hover {
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+strong{
+    font-weight: bolder;
+    color: #666;
+}
+
+a:hover{
+    color: #333;
+    cursor: help;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+}
