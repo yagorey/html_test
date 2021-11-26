@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Recolección Datos Libro</title>
+
+    <link rel="stylesheet" href="formulario_libro.css">
+
+</head>
+<body>
+
+
+    <form class="card" action="#" method="POST">
+        <h1 class="title">Opinion Cenicera</h1>
+
+        <div class="col1">
+
+            <label for="originalidad">Originalidad</label>
+            <select class="originalidad" name="originalidad" required>
+                <option value="0">----</option>
+                <option value="1" >Nula</option>
+                <option value="2" selected>Me suena</option>
+                <option value="3">Muchos Clichés</option>
+                <option value="4">Se nota la inspiración</option>
+                <option value="5">No habia leido nada parecido</option>
+            </select>
+
+            <p>
+                <span>Entretenido</span>
+                <input type="radio" name="entretenido" id="entre_1" value="0">
+                <label for="entre_1">NO</label>
+
+                <input type="radio" name="entretenido" id="entre_2"  value="1">
+                <input type="radio" name="entretenido" id="entre_3"  value="2">
+
+                <input type="radio" name="entretenido" id="entre_4"  value="3">
+                <label for="entre_4">Mucho</label>
+            </p>
+
+            <p>
+                <label for="linea">Linea Argumental</label>
+                <input type="range" class="linea" min=0 max=100 step=15>
+            </p>
+
+            <input type="submit" value="Enviar">
+
+        </div>
+        <div class="col2">
+            <p>
+                <span>Repetitivo</span>
+                <input type="radio" name="Repetitivo" id="repe_1" value="0">
+                <label for="repe_1">NO</label>
+
+                <input type="radio" name="Repetitivo" id="repe_4"  value="3">
+                <label for="repe_4">SI</label>
+            </p>
+
+            <p>
+                <span>Coherente</span>
+                <input type="radio" name="Coherente" id="cohe_1" value="0">
+                <label for="cohe_1">NO</label>
+
+                <input type="radio" name="Coherente" id="cohe_4"  value="3">
+                <label for="cohe_4">SI</label>
+            </p>
+
+            <p>
+                <span>Fluido</span>
+                <input type="radio" name="Fluido" id="fluid_1" value="0">
+                <label for="fluid_1">NO</label>
+
+                <input type="radio" name="Fluido" id="fluid_4"  value="3">
+                <label for="fluid_4">SI</label>
+            </p>
+
+        </div>
+        <div class="col3">
+
+
+            <p>
+                <label for="linea">Estructura</label>
+                <input type="range" name="linea" class="linea" min=0 max=100 step=15>
+            </p>
+
+            <p>
+                <label for="desarrollo">Desarrollo Personaje</label>
+                <input type="text" name="desarrollo" id="desarrollo">
+            </p>
+
+            <p>
+                <label for="otras">Otras Cosas</label>
+                <textarea name="otras" id="otras" rows=10 col=20 >
+                </textarea>
+            </p>
+
+
+
+        </div>
+
+    </form>
+
+
+
+</body>
+</html>
