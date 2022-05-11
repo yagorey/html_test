@@ -1,0 +1,18 @@
+{
+  "name": "html_test",
+  "homepage": "https://github.com/yagorey/html_test",
+  "description": "dependencias de mi proyecto",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome": "https://github.com/FortAwesome/Font-Awesome.git#^6.0.0"
+  }
+}
